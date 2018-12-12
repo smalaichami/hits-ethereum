@@ -24,7 +24,6 @@ if (!module.parent) {
 Web3 = require('web3')
 web3 = new Web3(new Web3.providers.HttpProvider("http://127.0.0.1:8545"));
 
-//web3 = new Web3(new Web3.providers.HttpProvider("https://rinkeby.infura.io"));
 var contractAddress = "0x276c0d6c760e63a3ed4ef8496c35898a1ab0e0de"
 //"0x7aAeE0875C13494c72D16443A968821a03aF94B1";
 var abiDefinition = [
